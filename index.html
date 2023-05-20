@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресторан</title>
+    <link rel='stylesheet' type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" type='text/css' href="style.css"> 
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="logo.png"></a>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Главная</a>
+            <a href="#about">О нас</a>
+            <a href="#Menu">Меню</a>
+            <a href="#reservation">Бронь</a>
+            <a href="#Blog">Новости</a>
+            <a href="#Delivery">Доставка</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu"></i>
+            <i class="fas fa-search"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </header>
+
+    <div class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide slide1">
+                    <div class="content">
+                        <img src="crown-symbol.png">
+
+                        <h3>Вкусный Королевский</h3>
+                        <h1>Подарочный Сертификат</h1>
+                        <p>
+                            Раздается любимым клиентам
+                        </p>
+                        <a href="#" class="btn">Заказать сейчас</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide slide2">
+                    <div class="content">
+                        <img src="crown-symbol.png">
+
+                        <h3>Скидка 10% на это блюдо</h3>
+                        <h1>Свежайшая</h1>
+                        <p>
+                            Еда ресторана
+                        </p>
+                        <a href="#" class="btn">Заказать сейчас</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide slide3">
+                    <div class="content">
+                        <img src="crown-symbol.png">
+
+                        <h3>Мы открылись</h3>
+                        <h1>Свежие фрукты</h1>
+                        <p>
+                            Вам это понравится
+                        </p>
+                        <a href="#" class="btn">Заказать сейчас</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    
+
+    <section class="welcome" id="about">
+        <h1 class="heading">Добро пожаловать в ЯМАТЕ</h1>
+        <center><h3 class="sub-heading"> ~ Роскошь & Качество ~</h3></center>
+        
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="post-thumb-1.jpg">
+                </div>
+
+                <div class="content">
+                    <h3>ПРОФЕССИОНАЛЬНЫЙ УРОВЕНЬ</h3>
+                    <p>
+                        Никто не ищет и не желает боли ради нее самой,
+                        никто не любит ее и не преследует ее. 
+                        Скорее, люди могут испытывать боль в результате возникновения определенных обстоятельств, 
+                        а не искать ее намеренно.</p>
+
+                        <a href="#" class="btn">Читать дальше</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="post-thumb-2.jpg">
+                </div>
+
+                <div class="content">
+                    <h3>ГАРАНТИЯ СВЕЖОЙ ЕДЫ</h3>
+                    <p>
+                        Никто не ищет и не желает боли ради нее самой,
+                        никто не любит ее и не преследует ее. 
+                        Скорее, люди могут испытывать боль в результате возникновения определенных обстоятельств, 
+                        а не искать ее намеренно.</p>
+
+                        <a href="#" class="btn">Читать дальше</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="post-thumb-3.jpg">
+                </div>
+
+                <div class="content">
+                    <h3>БОГАТЫЙ ВЫБОР МЕНЮ</h3>
+                    <p>
+                        Никто не ищет и не желает боли ради нее самой,
+                        никто не любит ее и не преследует ее. 
+                        Скорее, люди могут испытывать боль в результате возникновения определенных обстоятельств, 
+                        а не искать ее намеренно.</p>
+
+                        <a href="#" class="btn">Читать дальше</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Menu-->
+
+    <!--Menu начало-->
+    <section class="our-menu" id="Menu">
+        <h1 class="heading">Наше меню</h1>
+        <center><h3 class="sub-heading"> ~Ознакомтись с предложениями~</h3></center>
+
+        <div class="menu-container">
+
+            <div class="item">
+                <div class="item-name">
+                    <h2>Основные блюда</h2>
+                    <img src="drinks.png">
+                </div>
+
+                <div class="item-body">
+                    <div class="item-menu">
+                        <h3>Мясное ассорти</h3>
+                        <span class="dots"></span>
+                        <h3>599 руб</h3>
+
+                        <ul>
+                            <li><a href="#">Курица|</a></li>
+                            <li><a href="#">Говядина|</a></li>
+                            <li><a href="#">Помидоры|</a></li>
+                            <li><a href="#">Шпинат</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="item-menu">
+                        <h3>Овощное ассорти</h3>
+                        <span class="dots"></span>
+                        <h3>340 руб</h3>
+
+                        <ul>
+                            <li><a href="#">Помидоры|</a></li>
+                            <li><a href="#">Шпинат|</a></li>
+                            <li><a href="#">Огурцы|</a></li>
+                            <li><a href="#">Лук</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">
+                    <h2>Супы & Салаты</h2>
+                    <img src="drinks.png">
+                </div>
+
+                <div class="item-body">
+                    <div class="item-menu">
+                        <h3>Римский суп</h3>
+                        <span class="dots"></span>
+                        <h3>459 руб</h3>
+
+                        <ul>
+                            <li><a href="#">Яйца|</a></li>
+                            <li><a href="#">Сыр плавленный|</a></li>
+                            <li><a href="#">Чеснок|</a></li>
+                            <li><a href="#">Куринный бульон</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="item-menu">
+                        <h3>Суп-пюре со сливками и сыром</h3>
+                        <span class="dots"></span>
+                        <h3>699 руб</h3>
+
+                        <ul>
+                            <li><a href="#">Cливки|</a></li>
+                            <li><a href="#">Сыр "Голландский"|</a></li>
+                            <li><a href="#">Лук|</a></li>
+                            <li><a href="#">Картошка|</a></li>
+                            <li><a href="#">Морковь|</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">
+                    <h2>Напитки</h2>
+                    <img src="drinks.png">
+                </div>
+
+                <div class="item-body">
+                    <div class="item-menu">
+                        <h3>Свежевыжитые</h3>
+                        <span class="dots"></span>
+                        <h3>299 руб</h3>
+
+                        <ul>
+                            <li><a href="#">Морковь|</a></li>
+                            <li><a href="#">Ежевика|</a></li>
+                            <li><a href="#">Черешня|</a></li>
+                            <li><a href="#">Вишня</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="item-menu">
+                        <h3>Газированные</h3>
+                        <span class="dots"></span>
+                        <h3>199 руб</h3>
+
+                        <ul>
+                            <li><a href="#">Кола "Добрый"|</a></li>
+                            <li><a href="#">Фанта "Добрый"|</a></li>
+                            <li><a href="#">Спрайт "Добрый"|</a></li>
+                            <li><a href="#">Чай "Липтон"</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">
+                    <h2>Десерты</h2>
+                    <img src="drinks.png">
+                </div>
+
+                <div class="item-body">
+                    <div class="item-menu">
+                        <h3>Тирамису</h3>
+                        <span class="dots"></span>
+                        <h3>340 руб</h3>
+
+                        <ul>
+                            <li><a href="#">Сыр Маскарпоне|</a></li>
+                            <li><a href="#">сливки|</a></li>
+                            <li><a href="#">бисквит "Савоярди"|</a></li>
+                            <li><a href="#">кофе Американо|</a></li>
+                            <li><a href="#">коньяк|</a></li>
+                            <li><a href="#">какао</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="item-menu">
+                        <h3>Пирожное Малиновый пломбир</h3>
+                        <span class="dots"></span>
+                        <h3>340 руб</h3>
+
+                        <ul>
+                            <li><a href="#">Соус клюквенный|</a></li>
+                            <li><a href="#">фисташки|</a></li>
+                            <li><a href="#">сахарная пудра</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Menu конец-->
+
+    <!--Отзовы начало-->
+    <selection class="reviews">
+        <h1 class="heading">Заводилы</h1>
+        <center>
+            <h3 class="sub-heading"> ~ Примите и жалуйте ~</h3>
+        </center>
+
+        <div class="reviwsimg">
+            <div class="item">
+                <div class="image">
+                    <img src="person-1.jpg">
+                </div>
+
+                <div class="review">
+                    <div>
+                        <h3>Петр</h3>
+                        <span>Музыкант</span>
+
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-vk"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-soundcloud"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="image">
+                    <img src="persone-2.jpg">
+                </div>
+
+                <div class="review">
+                    <div>
+                        <h3>Павел</h3>
+                        <span>Бармен</span>
+
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-vk"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-yandex"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="image">
+                    <img src="persone-3.jpg">
+                </div>
+
+                <div class="review">
+                    <div>
+                        <h3>Анна</h3>
+                        <span>Повар</span>
+
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-vk"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </selection>
+    <!--Отзовы конец-->
+
+
+    <!--Бронь начало-->
+    <section class="reservation" id="reservation"></section>
+      <div class="reservation" id="reservation">
+          <div class="image">
+  
+          </div>
+  
+          <div class="form">
+            <  h1 class="heading">Заказать стол</>
+              <center><h3 class="sub-heading"> ~ Приходите к нам ~</h3></center>
+  
+              <form>
+                  <div class="forn-holder">
+                      <div>
+                          <select>
+                              <option>На 1 человека</option>
+                              <option>На 2 человека</option>
+                              <option>На 3 человека</option>
+                              <option>На 4 человека</option>
+                          </select>
+  
+                          <input type="text" name="" placeholder="Время">
+                          <input type="text" name="" placeholder="Телефон">
+                      </div>
+  
+                      <div>
+                          <input type="text" name="" placeholder="Дата">
+                          <input type="text" name="" placeholder="Имя">
+                          <input type="text" name="" placeholder="Почта">
+                      </div>
+                  </div>
+                  <center><a href="#" class="btn">Забронировать сейчас</a></center>
+              </form>
+          </div>
+      </div>
+    
+    <!--Бронь конец-->
+
+    <!--Новости начало-->
+    <section class="blog welcome" id="Blog">
+        <h1 class="heading">Последние новости</h1>
+        <center><h3 class=sub-heading"> ~ Топ новостей ~ </h3></center>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="post-thumb-4.jpg">
+                </div>
+
+                    <div class="content">
+                        <h3>ПРОФЕССИОНАЛЬНЫЙ УРОВЕНЬ</h3>
+                        <p>ЧЕТА ТАМ ТА РА РАМ</p>
+                        <a href="#">ЧИТАТЬ ДАЛЕЕ</a>
+                        <img src="post-body-bg-1.png">
+                    </div>
+                </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="post-thumb-5.jpg">
+                </div>
+
+                    <div class="content">
+                        <h3>ГАРАНТИРОВАННО CВЕЖАЯ ЕДА</h3>
+                        <p>ЧЕТА ТАМ ТА РА РАМ</p>
+                        <a href="#">ЧИТАТЬ ДАЛЕЕ</a>
+                        <img src="post-body-bg-2.png">
+                    </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="post-thumb-6.jpg">
+                </div>
+
+                    <div class="content">
+                        <h3>ИЗОБИЛЬНЫЙ ВЫБОР В МЕНЮ</h3>
+                        <p>ЧЕТА ТАМ ТА РА РАМ</p>
+                        <a href="#">ЧИТАТЬ ДАЛЕЕ</a>
+                        <img src="post-body-bg-3.png">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--Новости конец-->
+
+    <!--Низ страницы начало-->
+    <section class="footer">
+        <img src="logo.png" class="logo">
+
+        <div class="container">
+            <div>
+                <h3>О НАС</h3>
+                <p>
+                    БАБАБАБАБАББАБАБАБАБАББАБАБАБАБАББАБАБАБАБАБ</p>
+            </div>
+
+            <div>
+                <h3> ПОЛУЧАТЬ НОВОСТИ & СКИДКИ</h3>
+                <input type="email" name="" placeholder="Введите вашу почту">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-vk"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>НАШИ КОНТАКТЫ</h3>
+                <span>+7(800)555-35-35</span>
+                <span>Yamate@mail.ru</span>
+                <span>www.yamate.ru</span>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#"> Поддержка и продвижение</a></li>
+                    <li><a href="#"> Политика конфиденциальности </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p>&copy;2023 Сеть ресторанов-кафе «ЯМАТЕ»</p>
+    </section>
+    <!--Низ страницы конец-->
+
+    <!--Прыгалка-->
+    <a href="#"><button class="topbtn"><i class="fa-solid fa-angle-up"></i></button></a>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper(".home-slider", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+        delay: 7500,
+        disableOnInteraction: false,
+        },
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+        loop:true,
+      });
+    </script>
+
+    <script type="text/javascript">
+        let menu = document.querySelector('#menu');
+        let navbar = document.querySelector(".navbar");
+
+        menu.onclick = () =>{
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>
